@@ -1,0 +1,22 @@
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore dataset files
+Data/*.csv
+Data/.ipynb_checkpoints/
+
+# Ignore model files if large
+*.pkl
+
+# Ignore virtual environment folders
+venv/
+env/
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore temporary files
+*.log
+*.tmp
+
